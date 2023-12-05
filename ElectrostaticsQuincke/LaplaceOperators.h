@@ -1,6 +1,6 @@
 #pragma once
-#include "C:\Users\David\source\repos\IrinabanMaz\SphericalHarmonics\ScalarSphericalHarmonicSeries.h"
-#include "C:\Users\David\source\repos\IrinabanMaz\SphericalHarmonics\GMRES.h"
+#include "StokesSolver/ScalarSphericalHarmonicSeries.h"
+#include "StokesSolver/GMRES.h"
 /**
  * @brief Evaluates the Single Layer operator for points away from the surface, acting on ScalSphereData.
 */
