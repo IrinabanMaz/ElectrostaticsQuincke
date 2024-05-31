@@ -378,6 +378,7 @@ public:
 
         SphereCoord sc = recast(s, system);
 
+         P->populate(cos(temp.s.theta), N+1, N+1);
         for (int i = 0; i < terms.size(); i++)
             for (int j = 0; j < terms[i].size(); j++)
             {
@@ -407,6 +408,7 @@ public:
         double temp = 0.0;
 
         SphereCoord sc = recast(s, system);
+        P->populate(cos(temp.s.theta), N+1, N+1);
 
         for (int i = 0; i < terms.size(); i++)
             for (int j = 0; j < terms[i].size(); j++)
